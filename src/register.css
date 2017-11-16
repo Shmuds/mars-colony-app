@@ -1,0 +1,46 @@
+.register {
+  align-items: center;
+  background: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  height: -webkit-fill-available;
+  flex-direction: column;
+  text-align: center;
+}
+.registerH1 {
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-top: 5%;
+}
+.nameInput, .inputAge {
+  background-color: black;
+  border-top: none;
+  border: 0;
+  border-bottom: 1px solid white;
+  color: white;
+  height: 2rem;
+  margin-top: 3%;
+  width: 90%;
+}
+.registerOccupation {
+  background-color: black;
+  border: 0;
+  border-bottom: 1px solid white;
+  color: red;
+  height: 2rem;
+  margin-bottom: 10%;
+  margin-top: 3%;
+  width: 90%;
+}
+.click {
+  background-color: black;
+  border: red;
+  color: white;
+  font-size: 2rem;
+  height: 2rem;
+}
+::-webkit-input-placeholder { /* Chrome */
+  color: red;
+}
